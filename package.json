@@ -1,0 +1,49 @@
+{
+    "name": "@lumieducation/h5p-rest-example-client",
+    "version": "9.1.2",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/free-solid-svg-icons": "6.2.0",
+        "@fortawesome/react-fontawesome": "0.2.0",
+        "@lumieducation/h5p-react": "^9.1.2",
+        "bootstrap": "5.2.3",
+        "http-proxy-middleware": "2.0.6",
+        "react": "18.2.0",
+        "react-bootstrap": "2.6.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@lumieducation/h5p-server": "^9.1.2",
+        "@testing-library/jest-dom": "5.16.5",
+        "@testing-library/react": "12.1.4",
+        "@testing-library/user-event": "14.4.3",
+        "@types/jest": "27.4.1",
+        "@types/node": "18.11.10",
+        "@types/react": "18.0.25",
+        "@types/react-dom": "18.0.9",
+        "eslint-config-prettier": "^8.5.0",
+        "prettier": "^2.8.0",
+        "react-scripts": "5.0.1"
+    },
+    "scripts": {
+        "build": "react-scripts build",
+        "clean": "rm -rf build && rm -rf coverage && rm -rf node_modules",
+        "eject": "react-scripts eject",
+        "start": "react-scripts start",
+        "test": "react-scripts test",
+        "lint": "npx eslint -c .eslintrc.js --ext .ts src --quiet"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "http://127.0.0.1:8080"
+}
