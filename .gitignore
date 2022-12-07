@@ -3,8 +3,11 @@ logs
 *.log
 npm-debug.log*
 
+.idea
+
 # Compiled files
 build
+dist
 build-ide
 h5p
 coverage
