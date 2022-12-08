@@ -10,7 +10,7 @@ try {
     app.use(
         /\/h5p*|\/login|\/logout/,
         createProxyMiddleware({
-            target: 'http://192.168.1.72:8080',
+            target: 'https://tapybl-backend.onrender.com',
             changeOrigin: true,
         })
     );
